@@ -1,0 +1,35 @@
+.node-content{
+  padding: 1%;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+.node-content .title{
+  color: #fffefe;
+  font-size: 12px; 
+}
+
+.node-content .value{
+  color: #fffefe;
+  font-size: 16px;
+  white-space: nowrap;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+app-tree-graph .scrollable-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.chart-svg {
+  margin: 0 auto; 
+  display: block; 
+}
+

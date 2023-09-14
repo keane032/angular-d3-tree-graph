@@ -7,4 +7,69 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-d3-tree-graph';
+
+
+  treeData = {
+    name: 'Título',
+    total: 'Valor',
+    children: [
+      { 
+        name: 'Título',
+        total: 'Valor',
+        children: [{ 
+          name: 'Título',
+          total: 'Valor', 
+        }, { 
+          name: 'Título',
+          total: 'Valor',
+          children: [{ 
+            name: 'Título',
+            total: 'Valor',
+          }] 
+        }] 
+      },
+
+      { 
+        name: 'Título',
+        total: 'Valor',
+        children: [{ 
+          name: 'Título',
+          total: 'Valor', 
+        }, { 
+          name: 'Título',
+          total: 'Valor',
+        },
+         { 
+          name: 'Título',
+          total: 'Valor',
+          children: [{ 
+            name: 'Título',
+            total: 'Valor',
+          }, { 
+            name: 'Título',
+            total: 'Valor',
+          }] 
+        },
+        
+      ] },
+      { 
+        name: 'Título',
+        total: 'Valor',
+        children: [{ 
+          name: 'Título',
+          total: 'Valor',
+           children: [{ 
+            name: 'Título',
+            total: 'Valor',
+        }, { 
+          name: 'Título',
+          total: 'Valor',
+        }] 
+        },
+         { 
+          name: 'Título',
+          total: 'Valor', 
+        }] },
+    ]
+  };
 }
